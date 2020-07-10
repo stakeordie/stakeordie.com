@@ -11,7 +11,7 @@
 
 Your npm instance need to be logged in 
 
-1. Make sure you have access with a Github account to the LKMX flare repository at https://github.com/victor-lkmx/flare
+1. Make sure you have access with a Github account to the LKMX flare repository at https://github.com/lkmx/flare
 
 2. Create a personal access token in your Github Account navigating to https://github.com/settings/tokens/new, making sure to select both **repo** and **read:packages**.
 
