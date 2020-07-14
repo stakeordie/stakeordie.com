@@ -1,1 +1,19 @@
-// app specific tokens
+// color
+$brand-primary: #091337;
+$brand-secondary: #7a839e;
+$brand-white: #fff;
+$brand-black: #000;
+$body-background: $brand-white;
+
+// text
+$text-font: 'Inter', sans-serif;
+
+// header
+$header-position: relative;
+$header-height: 64px;
+$header-text-default-color: $brand-black;
+$header-background-color: $brand-white;
+$header-logo-space-width: 200px;
+$header-logo-height: 44px;
+
+$footer-background-color: red;

@@ -1,0 +1,19 @@
+@mixin gridline($col, $gap, $align) {
+  grid-template-columns:repeat($col, 1fr);
+  display: grid;
+  grid-gap: $gap;
+  align-items: $align;
+}
+
+// buttons
+@mixin button($backColor, $textColor) {
+  background-color: $backColor;
+  color: $textColor;
+  padding: $gutter $gutter-large;
+  border-radius: $radius-xxsmall;
+  display: inline-block; // border-radius: 3px;
+  transition: .1s ease;
+  &:hover {
+      background-color: darken($backColor, 5%);
+  }
+}
