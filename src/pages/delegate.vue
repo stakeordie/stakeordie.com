@@ -6,16 +6,16 @@
         <twin-columns>
           <template v-slot:left>
             <h3 class="title">Total Stake</h3>
-            <p class="value">2,014,044 SCRT (506,699.23 USD)</p>
+            <p class="value">XXXX</p>
             <h3 class="title">Commission</h3>
-            <p class="value">7.0%</p>
+            <p class="value">X.0%</p>
             <h3 class="title">Delegation Address</h3>
-            <p class="value delegation">enigmavaloper1hscf4cjrhzsea5an5smt4z9aezhh4sf59pnhrd</p>
+            <p class="value delegation">enigmavaloper</p>
             <button class="copy">Copy</button>
             <button class="block-explorer">View on Block Explorer</button>
           </template>
           <template v-slot:right>
-            <h3 class="title">Supported Blockchains</h3>
+            <h3 class="title"></h3>
           </template>
         </twin-columns>
       </section>
@@ -23,8 +23,8 @@
       <!-- Future expansion -->
       <section class="validator">
         <slim-column>
-          <h1 class="title">Future Expansion</h1>
-          <p>These are the blockchains we plan on validating in future. Stay tuned!</p>
+          <h1 class="title"></h1>
+          <p></p>
         </slim-column>
       </section>
     </base-page>
@@ -34,7 +34,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Flare Starter'
+    title: 'Delegate with us'
   }
 }
 </script>

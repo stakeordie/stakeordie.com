@@ -14,7 +14,7 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-	siteName: 'Flare Starter',
+	siteName: 'Stake or Die',
 	plugins: [],
 	chainWebpack (config) {
 		const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];
