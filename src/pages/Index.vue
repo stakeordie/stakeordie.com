@@ -17,7 +17,7 @@
     .cover {
         height: 100%;
         width: 100%;
-        background-color: #020102;
+        background-color: $brand-primary;
         display: grid;
         grid-gap: 1rem;
         place-content: center center;

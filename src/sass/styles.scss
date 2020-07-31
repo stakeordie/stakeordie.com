@@ -2,3 +2,8 @@
 @import "mixins";
 
 @import "~@lkmx/flare/src/flare";
+
+
+html {
+    background-color: $brand-primary;
+}
